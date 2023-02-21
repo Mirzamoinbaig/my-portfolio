@@ -1,0 +1,66 @@
+header{
+    background-color:black;
+    color: white;
+    height: 95px;
+    width: 100%;
+}
+
+.navbar-brand img{
+    height: 35%;
+    width: 30%;
+    font-weight: bolder;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid white;
+    overflow: hidden;
+    background-color:rgba(0,0,0, 0.1);
+    position: fixed;
+    top: 0px;
+    position: fixed;
+
+}
+#naviteams ul:hover li a:not(:hover){
+color: rgba(255, 255, 255, 0.684);
+transform: translateY(110px);
+}
+.naviteam{
+    padding-right: 30px;
+}
+.navlink{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding-left: 30px;
+}
+.icons{
+    padding-right: 80px;
+    color: white;
+    font-weight: bold;
+}
+.icons span{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.icons span:hover{
+    color: rgb(32, 99, 161);
+    transform: translateY(10%);
+    font-weight: 500;
+
+}
+
+.tagline{
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url(../public/images/cb.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+.tagline h3{
+    top: 50;
+    -top: 500PX;
+}

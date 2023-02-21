@@ -1,0 +1,37 @@
+<style>
+    .hover-2 .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+}
+
+.hover-2-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.hover-2:hover .hover-2-title {
+  transform: translateY(-1.5rem);
+}
+
+.hover-2:hover .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+}
+</style>
+    <div class="row">
+      <!-- DEMO 2 Item-->
+      <div class="col-lg-6 mb-3 mb-lg-0">
+        <div class="hover hover-2 text-white rounded">
+        <img src="https://bootstrapious.com/i/snippets/sn-img-hover/hoverSet-2.jpg" alt="">
+          <div class="hover-2-content px-5 py-4">
+            <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> 
+                <span class="font-weight-light">Image </span>Caption</h3>
+          </div>
+        </div>
+      </div>
+
+
+      

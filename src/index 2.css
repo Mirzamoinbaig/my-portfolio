@@ -1,0 +1,191 @@
+header{
+    color: rgb(21, 14, 14);
+    height: 600px;
+    margin-bottom: 145px;
+
+}
+.shadow{
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+nav ul{
+    display: flex;
+    margin-left: 700px;
+    font-size: 25px;
+}
+nav ul li{
+    padding-left: 45px;
+    list-style: none;
+    margin-top: 25px;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    color: red;
+    transition: 0.25s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: red;
+    transition: 0.25s;
+}
+.myimg{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    
+}
+.myimg img{
+    height: 400px;
+    width: 400px;
+    border-radius: 550px;
+    border: 20px solid rgb(11, 9, 9);
+    border-style: double;
+    margin-left: 50px;
+    
+}
+.social{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.social span{
+    padding:10px ;
+    border-radius: 500px;
+    border: 2px solid black;
+    background-color: gray;
+
+}
+.social span:hover{
+    color: brown;
+}
+.social a{
+    text-decoration: none;
+    color: black;
+}
+.myimg h3{
+font-weight: bold;
+font-size: 50px;
+font-family: arial;
+margin-left: 50px;
+}
+.content{
+    margin-top: 120px;
+    font-size: 25px;
+}
+section{
+    height: 600px;
+    /* background-color: rgba(159, 238, 238,0.2); */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+
+}
+.about{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-bottom: 250px;
+    
+}
+.t,.to span{
+
+    font-size: 30px;
+    }
+
+.t h4{
+    margin-top: -30px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.t h5{
+    margin-left: 200px;
+    font-size: 18px;
+    color: gray;
+    margin-top: -50px;
+    margin-bottom: 220px;
+}
+.to h4{
+    margin-top: -30px;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom:250px;
+}
+.to h5{
+    margin-top: -270px;
+    margin-left: 240px;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 220px;
+}
+.education h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.COLLEGE{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+}
+.COLLEGE :nth-child(2)
+{
+    color: rgb(241, 198, 45);
+    font: 15px;
+    margin-right: 60px;
+}
+.group,.gpa{
+    color: rgb(84, 81, 81);
+    font-size: 18px;
+}
+.skills{
+    /* margin-left: 50px;
+    margin-top: 50px; */
+    height: 800px;
+    margin-left: 500px;
+}
+.skills h2{
+margin-top: 900px;
+}
+.skills span{
+    font-size: 55px;
+    margin-bottom: 55px;
+}
+.html,.css{
+    /* display: flex; */
+}
+.css{
+    margin-top: 150px;
+}
+.stars{
+    margin-left: 150px;
+    margin-top: -150px;
+
+}
+.stars span{
+    font-size: 25px;
+    color: green;
+}
+.stars :nth-child(5){
+    color:unset;
+}
+.expreience{
+    height: 500px;
+    width: 100%;
+}
+.up{
+    bottom: 50px;
+    right: 25px;
+    position: fixed;
+}
+
+.up span{
+    font-size: 30px;
+    background-color: black;
+    color: wheat;
+    border-radius: 500px;
+    border: 10px solid rgb(11, 9, 9);
+    right: 10px;
+  
+}
