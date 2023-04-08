@@ -9,8 +9,7 @@
     border-bottom-right-radius: 500px;
     position: fixed;
     top: 0px;
-    z-index: 99;
-  
+    z-index: 99; 
 }
 #naviteam{
     padding-right: 50px;
@@ -21,9 +20,7 @@
     font-size: 40px;
     font-weight:200;
     font-style: italic;
-
 }
-
 .navbar-brand span,.role span,.skills-header span,#mywork h2 span{
    color: #f36b2cbc;
 }
@@ -32,24 +29,19 @@
 }
 #naviteam ul li a{
     color: black;
-    padding-right: 20px;
-    
+    padding-right: 20px;   
 }
 #naviteam ul:hover li a:not(:hover){
-color: black;
-opacity: 0.5;
-filter: blur(1px);
+    color: black;
+    opacity: 0.5;
+    filter: blur(1px);
 }
 #About{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-bottom: 3px;
-    grid-gap:450px;
     margin-top: -100px;
     background-color: rgba(11, 11, 11, 0.306);
 }
 .logo{
-padding-top: 250px;
+    padding-top: 200px;
 
 }
 .logo img{
@@ -61,68 +53,44 @@ padding-top: 250px;
     border: 5px solid rgb(15, 15, 15);
 }
 .logo img:hover{
-transform: scaleX(103%);
+    transform: scaleX(103%);
 }
 .content{
     align-items: center;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
-    padding-left: 20px;
-}
-@keyframes ani{
-   0%{
-    transform:scaleX(0%);
-   }
-   50%{
-    transform:scaleX(100%);
-   }
-   100%{
-    transform:scaleX(0%);
-   }
 }
 .name{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     border-radius: 17px;
     height: 100px;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 .name h2{
     margin-top: 0px;
-    padding-left: 55px;
     font-size: 45px;
+    padding-left: 50px;
 }
 .name p{
     font-size: 38px;
     color: rgb(48, 48, 48);
-    padding-left: 5px;
-    padding-top: 5px;
-
 }
 .name2{
     overflow: hidden;
     height: 50px;
-    margin-top: -5px;
     color: #f36b2cbc;
-
 }
 .name2 span{
-display: flex;
-flex-wrap:nowrap;
-font-size:35px;
-padding-left: 30px;
-animation:spin  5s infinite;
-text-shadow: 2px 2px 2px  rgb(94, 155, 216);
-font-weight:bold;
-font-family: 'Bree Serif', serif;
-
-}
-
-@keyframes spin{
-    10%{ transform: translateY(50%);}
-    35%{ transform: translateY(-90%);}
-    60%{ transform: translateY(-220%);}
+    display: flex;
+    flex-wrap:nowrap;
+    font-size:35px;
+    padding-left: 30px;
+    animation:spin  5s infinite;
+    text-shadow: 2px 2px 2px  rgb(94, 155, 216);
+    font-weight:bold;
+    font-family: 'Bree Serif', serif;
 }
 .role{
     flex: none;
@@ -139,20 +107,16 @@ font-family: 'Bree Serif', serif;
 }
 .para p{
     font-family: 'El Messiri', sans-serif;
-    font-size: 20px;
-    width: 150%;
+    font-size: 15px;
     letter-spacing: 1px;
-    word-spacing: 3px;
-    padding-left: 50px;
+    padding-left: 20px;
     word-break:inherit;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
-.skills{
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.586);
+#skills{
+    background-color: rgba(0, 0, 0, 0.209);
     font-weight:400;
     margin-bottom: 2px;
-    padding: 50px;
 }
 .skills-header{
     align-items: center;
@@ -170,21 +134,13 @@ font-family: 'Bree Serif', serif;
 }
 .progress-bar{
     background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
-    width: 100%;
     border-radius: 500px;
     animation: progress 3s;
 }
 #html{
     animation: progress 3s;
 }
-@keyframes progress{
-0%{
-width: 0%;
-}
-100%{
-    width: 100%;
-}
-}
+
 .skill-iteam{
     display: flex;
     justify-content: space-between;
@@ -245,43 +201,19 @@ width: 0%;
     text-shadow:0px 0px 10px rgb(0, 0, 0);
 }
 
-.top{
-    right: 20px;
-    bottom: 20px;
-    position: fixed;
-    background-color: #1c1c1c9e;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    justify-items: center;
-    border: 2px solid white;
-    border-radius: 20px;
-    color: #eee;
-}
-.top span{
-    font-size: 25px;
-}
-.top:hover{
-    background-color: #009bde;
-    transform: translateY(-1px);
-    transition: .5s;
-    border-radius: 550px;
-    border: 1px solid rgb(0, 0, 0);
-}
-
 #socialmedia a{
     text-decoration: none;
     padding-left: 10px;
 }
 #socialmedia-menu span{
-display: flex;
-text-align: center;
-align-items:center;
-color: rgb(255, 255, 255);
-background-color: rgba(58, 56, 56, 0.705);
-padding: 10px;
-border: 2px solid rgb(255, 255, 255);
-border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items:center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(58, 56, 56, 0.705);
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
 }
 #socialmedia-menu :first-child span:hover{
     background-color: #098f45b0;
@@ -309,7 +241,29 @@ border-radius: 20px;
     background-color:#0077b5;
 }
 
-
+.top{
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    background-color: #1c1c1c9e;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: #eee;
+}
+.top span{
+    font-size: 25px;
+}
+.top:hover{
+    background-color: #009bde;
+    transform: translateY(-1px);
+    transition: .5s;
+    border-radius: 550px;
+    border: 1px solid rgb(0, 0, 0);
+}
 footer{
     cursor: not-allowed;
 height: 500px;
@@ -318,143 +272,129 @@ width: 100%;
 
 
 
-
+/* keyframs */
+@keyframes ani{
+    0%{
+     transform:scaleX(0%);
+    }
+    50%{
+     transform:scaleX(100%);
+    }
+    100%{
+     transform:scaleX(0%);
+    }
+ }
+ @keyframes spin{
+    10%{ transform: translateY(50%);}
+    35%{ transform: translateY(-90%);}
+    60%{ transform: translateY(-220%);}
+}
+@keyframes progress{
+    0%{
+    width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+    }
 
             /* @media screen  */
     
-
-@media screen and (max-width: 400px){
-    .skills{   
-         padding-right: 100px;
-         padding-top: 50px;
-         padding-left: 20px;
-    }
-    .skill-main {
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-        width: 100%;
-    }
-    .skill-iteam h3{
-        display: flex;
-        justify-content: space-between;
-    }
-    .skills-percent{
-        padding-left: 0px;
-
-    }
-    .skill-iteam h3{
-        padding-left: 15px;
-    }
-    .progress{
-        width: 120%;
-        color: red;
-    }
-     #socialmedia{
-        margin-left:-50px;
-       
-    }
-    #socialmedia-menu a{
-        padding-left: 05px;
-    }
-}
-
-
-@media screen and (max-width: 400px){
-    .name{
-       margin-bottom: 20px;
-        
-    }
-    .name h2{
-        margin-top: -70px;
-       margin-left: -10px;
-    }
-    .name2{
-        padding: auto;
-        margin: auto;
-        margin-bottom: 20px;
-        margin-top: 0px;
-    }
-    .name2 span{
-        padding-right: 20px;
-        
-       
-    }
-    .name p{
-        padding-left: -30px;
-    }
-    .role span{
-        padding-left: 10px;
-    }
-    .role{
-        align-items:unset;
-        text-align: unset;
-        padding-left: -150px;
-    }
-    .role h3{
-        padding-left: 0px;
-        padding-right: 30px;
-        font-size: 20px;
-        letter-spacing:2px;
-        word-spacing: 2px;
-        display: block;
-        display: flex;
-    }
-    .role span{
-        padding-left: 10px;
-    }
-
-}
-
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px){   
     .navbar-brand{
         font-size: 30px;
         margin-right: -80px;
     }
-   #About {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap:0px;
-
-    }
-    .para{
-        padding-right: 10px;
-        margin-bottom: 170px;
-        margin-right: 30px;
-
-    }
-    .para p{
-              width: 100%;
-    }
-    .content{
-        margin-bottom: 0px;
-    }
-    .content h2{
-        padding: 0px;
+    .name  h2{
+        padding-left: 20px;
         font-size: 45px;
         padding-top: 70px;
+        margin-top: -70px;
     }
-    .logo{
-        margin-top: -420px;
-        align-items: center;
-        margin-bottom: 20px;
+    .name{
+        margin-bottom: 10px;       
+     } 
+     .name2 span{
         padding-left: 10px;
+     }
+     .role h3{
+         padding-left: 5px;
+         padding-right: 10px;
+         font-size: 20px;
+         letter-spacing:2px;
+         word-spacing: 1px;
+         display: flex;
+     }
+     .role span{
+         padding-left: 5px;
+     }
+     .para{
+        padding-bottom: 150px;
+     }
+    .logo{
+        margin-top: -350px;
+        margin-bottom: 20px;
     }
-.logo img{
-    height: 330px;
-    padding: 10px;
-    width: 330px;
-    border-style: double;
-    border-radius: 550px;
-    border:5px solid black;
+    .logo img{
+        height: 280px;
+        width: 280px;
+    }
+    .skills-header{
+        text-align: center;
+        align-items: center;
+    }
+    .skills-header p{
+        width: 100%;
+    }
+    .skills{   
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-left: 20px;
+   }
+   .skill-main {
+       display: flex;
+       flex-direction: column;
+       padding: 0px;
+       width: 100%;
+   }
+   .skill-iteam h3{
+       display: flex;
+       justify-content: space-between;
+   }
+   .skills-percent{
+       padding-left: 0px;
+   }
+  .progress{
+       width: 120%;
+   }
+    #socialmedia{
+       margin-left:-50px;
+      
+   }
+   #socialmedia-menu a{
+       padding-left: 05px;
+   }
 }
-.skills-header{
-    padding: 0px;
-    margin-left:80px;
-    margin-right: 0px;   
-}
-.skills-header p{
- padding-right: -50%;
-    width: 100%;
-}
+@media screen and (min-width:401px) and (max-width: 767px){
+    
+    .name  h2{
+        padding-left: 20px;
+    }
+           .logo{
+        margin-top: -200px;
+        margin-bottom: 20px;
+        margin-left:-25px;
+
+    }
+    .logo img{
+        height: 350px;
+        width: 350px;
+    }
+    .rol h3{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #socialmedia a{
+        padding-left: 5px;
+    }
 }
